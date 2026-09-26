@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Primeira pipeline na AWS com sucesso!'));
+app.get('/', (req, res) => res.send('Segunda execução da pipeline na AWS com sucesso!'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
